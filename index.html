@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Homophonic Cipher Encryption/Decryption</title>
+    <style>
+      /* add some basic styling */
+      body {
+        font-family: Arial, sans-serif;
+     
+  
+      }
+      
+      h1 {
+        text-align: center;
+        background-color: aqua;
+        
+      }
+      
+      label {
+        display: block;
+        margin-bottom: 5px;
+        font-size: larger;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+      }
+      
+      textarea {
+        width: 100%;
+        height: 100px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Homophonic Cipher Encryption/Decryption</h1>
+    <div>
+      <label for="plain-text"><b><u>Plain text:</u></b></label>
+      <textarea id="plain-text"></textarea>
+      <label for="key"><b><u>Key:(Enter with spaces)</u></b></label>
+      <textarea id="key"></textarea>
+    </div>
+    <div>
+      <button onclick="encrypt()">Encrypt</button>
+      <button onclick="decrypt()">Decrypt</button>
+    </div>
+    <div>
+      <label for="cipher-text">Cipher text:</label>
+      <textarea id="cipher-text"></textarea>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
+
